@@ -4,9 +4,9 @@ import (
 	"fmt"
 	_ "unsafe"
 
-	"github.com/matsuridayo/sing-box-extra/boxbox"
-	"github.com/matsuridayo/sing-box-extra/boxmain"
-	_ "github.com/matsuridayo/sing-box-extra/distro/all"
+	"github.com/Mahdi-zarei/sing-box-extra/boxbox"
+	"github.com/Mahdi-zarei/sing-box-extra/boxmain"
+	_ "github.com/Mahdi-zarei/sing-box-extra/distro/all"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 package boxmain
 
 import (
-	"github.com/matsuridayo/sing-box-extra/boxbox"
+	"github.com/Mahdi-zarei/sing-box-extra/boxbox"
 	E "github.com/sagernet/sing/common/exceptions"
 	N "github.com/sagernet/sing/common/network"
 

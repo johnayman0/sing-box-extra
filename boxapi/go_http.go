@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/matsuridayo/sing-box-extra/boxbox"
+	"github.com/Mahdi-zarei/sing-box-extra/boxbox"
 )
 
 func CreateProxyHttpClient(box *boxbox.Box) *http.Client {

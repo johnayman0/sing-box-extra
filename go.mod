@@ -7,9 +7,9 @@ require (
 	github.com/gofrs/uuid/v5 v5.1.0
 	github.com/matsuridayo/libneko v0.0.0-20230913024055-5277a5bfc889
 	github.com/sagernet/sing v0.4.0-beta.18
-	github.com/sagernet/sing-box v1.9.0-rc.14
+	github.com/sagernet/sing-box v1.9.0-rc.15
 	github.com/sagernet/sing-dns v0.2.0-beta.16
-	github.com/sagernet/sing-tun v0.2.7-beta.2
+	github.com/sagernet/sing-tun v0.2.8-beta.1
 	github.com/spf13/cobra v1.8.0
 	golang.org/x/sys v0.19.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6
@@ -51,13 +51,14 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.14 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/qtls-go1-20 v0.4.1 // indirect
+	github.com/sagernet/bbolt v0.0.0-20231014093535-ea5cb2fe9f0a // indirect
 	github.com/sagernet/cloudflare-tls v0.0.0-20231208171750-a4483c1b7cd1 // indirect
 	github.com/sagernet/gvisor v0.0.0-20240428053021-e691de28565f // indirect
 	github.com/sagernet/netlink v0.0.0-20220905062125-8043b4a9aa97 // indirect
-	github.com/sagernet/quic-go v0.43.0-beta.2 // indirect
+	github.com/sagernet/quic-go v0.43.0-beta.3 // indirect
 	github.com/sagernet/reality v0.0.0-20230406110435-ee17307e7691 // indirect
 	github.com/sagernet/sing-mux v0.2.0 // indirect
-	github.com/sagernet/sing-quic v0.1.13-beta.5 // indirect
+	github.com/sagernet/sing-quic v0.2.0-beta.1 // indirect
 	github.com/sagernet/sing-shadowsocks v0.2.6 // indirect
 	github.com/sagernet/sing-shadowsocks2 v0.2.0 // indirect
 	github.com/sagernet/sing-shadowtls v0.1.4 // indirect

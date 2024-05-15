@@ -3,7 +3,7 @@ package boxbox
 import "github.com/sagernet/sing-box/constant"
 
 func init() {
-	constant.Version = Version + "-nova"
+	constant.Version = Version
 }
 
-var Version = "1.9.0-rc.14"
+var Version = "1.9.0-rc.18"

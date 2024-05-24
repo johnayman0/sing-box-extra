@@ -34,7 +34,7 @@ func check() error {
 	instance, err := boxbox.New(boxbox.Options{
 		Context: ctx,
 		Options: options,
-	})
+	}, true)
 	if err == nil {
 		instance.Close()
 	}

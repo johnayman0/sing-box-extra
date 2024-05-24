@@ -48,7 +48,7 @@ type Options struct {
 	PlatformLogWriter log.PlatformWriter
 }
 
-func New(options Options) (*Box, error) {
+func New(options Options, disableWinPowListener bool) (*Box, error) {
 	createdAt := time.Now()
 	ctx := options.Context
 	if ctx == nil {
@@ -93,6 +93,7 @@ func New(options Options) (*Box, error) {
 		common.PtrValueOrDefault(options.NTP),
 		options.Inbounds,
 		options.PlatformInterface,
+		disableWinPowListener,
 	)
 	if err != nil {
 		return nil, E.Cause(err, "parse route options")

@@ -130,7 +130,7 @@ func readConfigAndMerge() (option.Options, error) {
 	return mergedOptions, nil
 }
 
-func Create(nekoConfigContent []byte) (*boxbox.Box, context.CancelFunc, error) {
+func Create(nekoConfigContent []byte, disableWinPowListener bool) (*boxbox.Box, context.CancelFunc, error) {
 	var options option.Options
 	var err error
 	//
@@ -153,7 +153,7 @@ func Create(nekoConfigContent []byte) (*boxbox.Box, context.CancelFunc, error) {
 	instance, err := boxbox.New(boxbox.Options{
 		Context: ctx,
 		Options: options,
-	})
+	}, disableWinPowListener)
 	if err != nil {
 		cancel()
 		return nil, nil, E.Cause(err, "create service")
@@ -185,7 +185,7 @@ func run() error {
 	signal.Notify(osSignals, os.Interrupt, syscall.SIGTERM, syscall.SIGHUP)
 	defer signal.Stop(osSignals)
 	for {
-		instance, cancel, err := Create(nil)
+		instance, cancel, err := Create(nil, false)
 		if err != nil {
 			return err
 		}

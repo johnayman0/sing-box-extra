@@ -2,7 +2,7 @@ package boxapi
 
 import (
 	"context"
-	"github.com/Mahdi-zarei/sing-box-extra/boxbox"
+	"github.com/johnayman0/sing-box-extra/boxbox"
 	"github.com/sagernet/sing-box/common/dialer"
 	"github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"

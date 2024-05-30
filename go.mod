@@ -1,4 +1,4 @@
-module github.com/Mahdi-zarei/sing-box-extra
+module github.com/johnayman0/sing-box-extra
 
 go 1.19
 

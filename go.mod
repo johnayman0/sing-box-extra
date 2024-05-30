@@ -6,10 +6,10 @@ require (
 	github.com/dustin/go-humanize v1.0.1
 	github.com/gofrs/uuid/v5 v5.2.0
 	github.com/matsuridayo/libneko v0.0.0-20230913024055-5277a5bfc889
-	github.com/sagernet/sing v0.4.0-beta.20
-	github.com/sagernet/sing-box v1.9.0-rc.21
+	github.com/sagernet/sing v0.4.0
+	github.com/sagernet/sing-box v1.9.0
 	github.com/sagernet/sing-dns v0.2.0-beta.18
-	github.com/sagernet/sing-tun v0.3.0-beta.6
+	github.com/sagernet/sing-tun v0.3.0
 	github.com/spf13/cobra v1.8.0
 	golang.org/x/sys v0.20.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6

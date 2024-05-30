@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Mahdi-zarei/sing-box-extra/boxbox"
+	"github.com/johnayman0/sing-box-extra/boxbox"
 	"github.com/matsuridayo/libneko/protect_server"
 	"github.com/sagernet/sing-box/log"
 	"github.com/sagernet/sing-box/option"

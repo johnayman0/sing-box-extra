@@ -1,6 +1,6 @@
 package all
 
 import (
-	_ "github.com/Mahdi-zarei/sing-box-extra/boxapi"
-	_ "github.com/Mahdi-zarei/sing-box-extra/boxdns"
+	_ "github.com/johnayman0/sing-box-extra/boxapi"
+	_ "github.com/johnayman0/sing-box-extra/boxdns"
 )

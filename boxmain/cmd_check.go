@@ -3,7 +3,7 @@ package boxmain
 import (
 	"context"
 
-	"github.com/Mahdi-zarei/sing-box-extra/boxbox"
+	"github.com/johnayman0/sing-box-extra/boxbox"
 	"github.com/sagernet/sing-box/log"
 
 	"github.com/spf13/cobra"
